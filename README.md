@@ -2,4 +2,4 @@
 
 Testing 
 
-![](https://github.com/Emma-M-Collins/spatial_stats/blob/main/suicide_proportion.png)
+![](https://github.com/Emma-M-Collins/spatial_stats/blob/main/images/suicide_proportion.png)
