@@ -9,3 +9,10 @@ We aim to indentify if there are any unusually high rates of suicide and potenti
 * We use Kulldorf's Spatial Scan test and Turnbull et. al's Cluster Evaluation Permutation Procedure (CEPP) to identify clusters of counties with high rates of suicide.
 
 ![](https://github.com/Emma-M-Collins/spatial_stats/blob/main/CRH_tests.png)
+* We can see both tests identifies clusters in a similar area.
+
+### Identifying Clusters using Poisson GLM
+* The expected number of suicide counts are modeled using a Poisson Generalized Linear Model.  Variables were chosen based on research with only statistically significant variables used.  The variables are Income Per Capita, proportion of county considered rural, proportion of county with a high school diploma, proportion of county in poverty, and proportion of county that owns their main residence.
+* The results of the model are used as an estimation instead of the CRH to determine whether the demographics used influence suicide rates.
+
+![](https://github.com/Emma-M-Collins/spatial_stats/blob/main/GLM_tests.png)
